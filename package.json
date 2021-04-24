@@ -1,10 +1,10 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/andrewmamych/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/andrewmamych/backend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
-	"brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
