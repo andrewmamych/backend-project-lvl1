@@ -1,4 +1,4 @@
-name: CI with linting
+name: linting-check
 
 on:
   push:
