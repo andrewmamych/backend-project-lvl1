@@ -1,7 +1,7 @@
 import greeting from './greeting.js';
 import { ask } from './cli.js';
 
-const COUNT_CORRECT_ANSWER_TO_WIN = 3;
+const countCorrectAnswerOfWin = 3;
 
 export default (titleRulesOfTheGame, getQuestionAndAnswer) => (
   userNameFromParams,
@@ -26,7 +26,7 @@ export default (titleRulesOfTheGame, getQuestionAndAnswer) => (
       console.log(`Let's try again, ${userName}!`);
       return;
     }
-  } while (countCorrectAnswer !== COUNT_CORRECT_ANSWER_TO_WIN);
+  } while (countCorrectAnswer !== countCorrectAnswerOfWin);
 
   console.log(`Congratulations, ${userName}!`);
 };

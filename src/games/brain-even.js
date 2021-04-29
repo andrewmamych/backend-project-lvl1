@@ -1,5 +1,5 @@
-import { getRandomIntegerInRange, isEven } from '../utils.js';
-import createGame from '../createGame.js';
+import { getRandomIntegerInRange, isEven } from '../utilities.js';
+import startGame from '../start-game.js';
 
 const getQuestionAndAnswer = (minNum = 0, maxNum = 100) => {
   const num = getRandomIntegerInRange(minNum, maxNum)();
@@ -10,7 +10,7 @@ const getQuestionAndAnswer = (minNum = 0, maxNum = 100) => {
   };
 };
 
-export default createGame(
+export default startGame(
   'Answer "yes" if the number is even, otherwise answer "no".',
   getQuestionAndAnswer,
 );
