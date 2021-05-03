@@ -1,5 +1,5 @@
 import { getRandomIntegerInRange, isEven } from '../utilities.js';
-import startGame from '../start-game.js';
+import startGame from '../index.js';
 
 const getQuestionAndAnswer = (minNum = 0, maxNum = 100) => {
   const num = getRandomIntegerInRange(minNum, maxNum)();
