@@ -9,3 +9,6 @@ Installation:
 
 Brain-even:
 [![asciicast](https://asciinema.org/a/L0vRSAcr8R5N8iZ7KykJWAsMF.svg)](https://asciinema.org/a/L0vRSAcr8R5N8iZ7KykJWAsMF)
+
+Brain-calc:
+[![asciicast](https://asciinema.org/a/2HFPecmWNdYjNQt7vqm5Zspkt.svg)](https://asciinema.org/a/2HFPecmWNdYjNQt7vqm5Zspkt)
