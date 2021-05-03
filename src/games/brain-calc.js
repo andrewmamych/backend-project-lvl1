@@ -10,8 +10,7 @@ const mathOperations = Object.keys(mapMathOperationsToFn);
 
 const getQuestionAndAnswer = (minNum = 0, maxNum = 20) => {
   const getNum = getRandomIntegerInRange(minNum, maxNum);
-  const operation =
-    mathOperations[getRandomIntegerInRange(0, mathOperations.length - 1)()];
+  const operation = mathOperations[getRandomIntegerInRange(0, mathOperations.length - 1)()];
 
   const x = getNum();
   const y = getNum();
@@ -23,5 +22,5 @@ const getQuestionAndAnswer = (minNum = 0, maxNum = 20) => {
 
 export default startGame(
   'What is the result of the expression?',
-  getQuestionAndAnswer
+  getQuestionAndAnswer,
 );
